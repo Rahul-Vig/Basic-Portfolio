@@ -81,12 +81,12 @@ body {
     background: rgb(201, 166, 123);
     position: relative;
     margin-left: 370px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .card-info{
     height: 550px;
-    margin-top: 110px;
+    margin-top: 80px;
     font-weight: bolder;
     font-size: 30px;
     text-align: center;
@@ -114,7 +114,7 @@ p{
     background: rgb(201, 166, 123);
     position: absolute;
     margin-left: 370px;
-    margin-top: 110px; 
+    margin-top: 80px; 
     border: 5px solid black; 
 }
 
