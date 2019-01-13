@@ -1,53 +1,245 @@
-.header{
-    overflow: hidden;
-    background-color: rgb(201, 166, 123);
-    padding: 0px;
-}
-
-body{
-    background-image: url(/home/rahulvig/Desktop/CBC/Basic-Portfolio/assets/images/dark-paths.png);
+body {
+    background-image: url(/assets/images/curls.png);
     margin: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+
+.header {
+  overflow: hidden;
+  background-color: rgb(201, 166, 123);
+  padding: 0px;
+  border-bottom: 5px solid black;
 }
 
-.name-card{
-    width: 10%;
-    float: left;
-    background-color: rgb(14, 2, 90);
-    color: aliceblue;
-    text-align: center;
-    margin: 0px;
-    z-index: 1;
-    position: relative;
-    overflow: hidden;
-    margin-left: 15%;
+.name-card {
+  width: 10%;
+  float: left;
+  background-color: rgb(9, 9, 9);
+  color: aliceblue;
+  text-align: center;
+  margin: 0px;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  margin-left: 15%;
 }
 
-.nav-bar{
-    margin-top: 30px;
-    width: 70%;
-    float: right;
-    text-align: center;
-    position: relative;
-    left: 80px;
-    font-weight: bolder;
+.nav-bar {
+  margin-top: 30px;
+  width: 70%;
+  float: right;
+  text-align: center;
+  position: relative;
+  left: 80px;
+  font-weight: bolder;
 }
 
-.nav-bar ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0 0 0 300px;
+  padding: 0;
+  overflow: hidden;
 }
 
 .nav-bar li {
-    display: inline;
-    font-size: 23px;
+  display: inline;
+  font-size: 25px;
 }
 
-.nav-bar li a{
-    color: black;
-    padding: 10px;
-    text-decoration: none;
+.nav-bar li a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
 }
+
+.nav-bar li a:hover {
+  background:  rgb(9, 9, 9);
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  z-index: 1;
+  background: rgb(201, 166, 123);
+  position: fixed;
+  bottom: 0;
+  border-top: 5px solid black;
+}
+
+.footer-text {
+  margin: 18px;
+  font-size: 10px;
+}
+
+.about-card {
+    width: 60%;
+    height: 60%;
+    background: rgb(201, 166, 123);
+    position: relative;
+    margin-left: 370px;
+    margin-top: 60px;
+}
+
+.card-info{
+    height: 550px;
+    margin-top: 110px;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    font-family: fantasy;
+    border: 5px solid black;
+}
+
+.card-info img{
+    width: 380px;
+    height: 550px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    float: left;
+    margin-right: 20px;
+}
+
+p{
+    margin-right: 10px;
+    text-align: left;
+}
+
+.contact-card{
+    width: 60%;
+    height: 60%;
+    background: rgb(201, 166, 123);
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 110px; 
+    border: 5px solid black; 
+}
+
+.contact-card p{
+    margin-left: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: fantasy;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#name{
+    display: block;
+    width: 95%;
+    height: 6%;
+    margin: 0 10px 10px 10px;
+
+}
+
+#email{
+    display: block;
+    width: 95%;
+    height: 6%;
+    margin: 10px;
+}
+
+#message{
+    display: block;
+    width: 95%;
+    height: 30%;
+    margin: 10px;
+}
+
+#submit{
+    display: block;
+    margin-left: 10px;
+    width: 100px;
+    height:50px;
+}
+
+label{
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.portfolio-card{
+    width: 60%;
+    height: 60%;
+    background: rgb(201, 166, 123);
+    position: relative;
+    margin-left: 370px;
+    margin-top: 15px; 
+    border: 5px solid black;
+}
+
+.portfolio-card p{
+    margin-left: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: fantasy;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+a{
+    padding: 10px;
+    margin-left: 45px;
+    overflow: hidden;
+}
+
+.projects div{
+    display: inline;
+}
+
+.projects h2#p1{
+    position: absolute;
+    top: 300px;
+    left: 130px;
+    color: white;
+    background-color: black;
+}
+
+.projects h2#p2{
+    position: absolute;
+    top: 300px;
+    left: 520px;
+    color: white;
+    background-color: black;
+}
+
+.projects h2#p3{
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    color: white;
+    background-color: black;
+}
+
+.projects h2#p4{
+    position: absolute;
+    top: 600px;
+    left: 130px;
+    color: white;
+    background-color: black;
+}
+
+
+.projects h2#p5{
+    position: absolute;
+    top: 600px;
+    left: 520px;
+    color: white;
+    background-color: black;
+}
+
+.projects h2#p6{
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    color: white;
+    background-color: black;
+}
+
 

@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-    <title>Contact</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <title>About</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="name-card"><h1>Rahul Vig</h1></div>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <p><u>Contact</u></p>
+      <label for="name">Name</label>
+      <input type="text" name="fullname" id="name" placeholder="Your name..." />
+      <label for="email">Email</label>
+      <input type="text" name="e-mail" id="email" placeholder="Your email..." />
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Your message..."
+      ></textarea>
+      <input id="submit" type="submit" value="Submit" />
+    </div>
+
+    <div class="footer">
+      <div class="footer-text"><strong>Copyright &copy; </strong></div>
+    </div>
+  </body>
 </html>
