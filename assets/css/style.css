@@ -7,9 +7,9 @@ body {
 
 .header {
   overflow: hidden;
-  background-color: rgb(201, 166, 123);
   padding: 0px;
   border-bottom: 5px solid black;
+  background: rgb(201, 166, 123);
 }
 
 .name-card {
