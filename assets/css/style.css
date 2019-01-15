@@ -1,10 +1,9 @@
 body {
-    background-image: url(/assets/images/curls.png);
     margin: 0px;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
-  
+
 
 .header {
   overflow: hidden;
@@ -114,8 +113,8 @@ p{
     background: rgb(201, 166, 123);
     position: absolute;
     margin-left: 370px;
-    margin-top: 80px; 
-    border: 5px solid black; 
+    margin-top: 80px;
+    border: 5px solid black;
 }
 
 .contact-card p{
@@ -169,7 +168,7 @@ label{
     background: rgb(201, 166, 123);
     position: relative;
     margin-left: 370px;
-    margin-top: 15px; 
+    margin-top: 15px;
     border: 5px solid black;
 }
 
@@ -241,5 +240,3 @@ a{
     color: white;
     background-color: black;
 }
-
-
